@@ -1,0 +1,66 @@
+/*
+      **  Plant Object Template  **
+      
+  {
+      name: "",
+      scientific: "",
+      minTempF: 0,
+      maxTempF: 0,
+      minHumidity: 0,
+      maxHumidity: 0,
+      soil: "",
+      //watering frequency in days
+      water: 1,
+      light: "",
+      toxic: ""
+    }
+ */
+
+{
+  flowering: [
+    {
+      name: "Corsage Orchid",
+      scientific: "Cattleya Orchid",
+      minTempF: 55,
+      maxTempF: 90,
+      minHumidity: 40,
+      maxHumidity: 70,
+      soil: "Soiless (Bark, Rocks, Pearlite)",
+      //watering frequency in days
+      water: 7,
+      light: "Medium",
+      toxic: "Non-toxic to cats, dogs, and horses"
+    }
+  ],
+  
+  foliage: [
+    {
+      name: "Arrowhead Plant",
+      scientific: "Syngonium Podophyllum",
+      minTempF: 60,
+      maxTempF: 85,
+      minHumidity: 20,
+      maxHumidity: 80,
+      soil: "Potting mix",
+      //watering frequency in days
+      water: "As Needed",
+      light: "Bright Indirect Light",
+      toxic: "Toxic to cats and dogs"
+    }
+  ],
+  succulents: [
+    {
+      name: "Aloe Vera",
+      scientific: "Aloe barbadensis",
+      minTempF: 50,
+      maxTempF: 80,
+      minHumidity: 0,
+      maxHumidity: 40,
+      soil: "Cactus mix",
+      //watering frequency in days
+      water: "As Needed",
+      light: "Bright Indirect Light",
+      toxic: "Toxic for cats and dogs"
+    }
+  ]
+}
