@@ -30,6 +30,19 @@
       water: 7,
       light: "Medium",
       toxic: "Non-toxic to cats, dogs, and horses"
+    },
+    {
+      name: "Calla Lily",
+      scientific: "Zantedeschia Aethiopica",
+      minTempF: 55,
+      maxTempF: 75,
+      minHumidity: 5,
+      maxHumidity: 75,
+      soil: "Standard Potting Soil, 6.0-6.5 PH",
+      //watering frequency in days
+      water: "Always Moist",
+      light: "Bright non-peak sunlight",
+      toxic: "Toxic to cats and dogs"
     }
   ],
   
