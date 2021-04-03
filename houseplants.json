@@ -59,6 +59,20 @@
       water: "As Needed",
       light: "Bright Indirect Light",
       toxic: "Toxic to cats and dogs"
+    }, 
+       
+    {
+      name: "Chinese Evergreen",
+      scientific: "Aglaonema",
+      minTempF: 60,
+      maxTempF: 80,
+      minHumidity: false,
+      maxHumidity: false,
+      soil: "Well draining Pottong soil",
+      //watering frequency in days
+      water: "Keep soil moist",
+      light: "Indirect light, darker plants need less light.",
+      toxic: "Toxic to dogs, cats, and horses"
     }
   ],
   succulents: [
